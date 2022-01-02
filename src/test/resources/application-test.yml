@@ -1,0 +1,11 @@
+app:
+  restApiUrl: http://localhost:1080/public/v2/users
+
+logging:
+  level:
+    org.mockserver.log.MockServerEventLog: INFO
+
+test:
+  mockServer:
+    dir: mockServerReplays
+    port: 1080

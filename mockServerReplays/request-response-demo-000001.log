@@ -1,0 +1,63 @@
+---
+requestUrl: "https://gorest.co.in/public/v2/users"
+requestMethod: "GET"
+requestHeaders: {}
+requestBody: ""
+responseCode: 200
+responseHeaders:
+  Transfer-Encoding: "chunked"
+  Server: "nginx"
+  X-Request-Id: "9d5f56bc-6667-4240-931e-06fd19a699b9"
+  X-Content-Type-Options: "nosniff"
+  X-Runtime: "0.017047"
+  X-Links-Next: "https://gorest.co.in/public/v2/users?page=2"
+  Connection: "keep-alive"
+  X-Download-Options: "noopen"
+  X-Links-Current: "https://gorest.co.in/public/v2/users?page=1"
+  X-Links-Previous: ""
+  X-Permitted-Cross-Domain-Policies: "none"
+  Date: "Sun, 02 Feb 2022 10:06:30 GMT"
+  X-Frame-Options: "SAMEORIGIN"
+  Referrer-Policy: "strict-origin-when-cross-origin"
+  X-Pagination-Total: "3578"
+  Strict-Transport-Security: "max-age=63072000; includeSubDomains"
+  Cache-Control: "max-age=0, private, must-revalidate"
+  ETag: "W/\"bee3544ac49d4c31e26250391219da6f\""
+  X-Pagination-Limit: "20"
+  Vary: "Accept-Encoding"
+  X-Pagination-Page: "1"
+  X-XSS-Protection: "0"
+  X-Pagination-Pages: "179"
+  Content-Type: "application/json; charset=utf-8"
+responseBody: "[{\"id\":3626,\"name\":\"Digambara Ahuja\",\"email\":\"digambara_ahuja@monahan.com\"\
+  ,\"gender\":\"male\",\"status\":\"inactive\"},{\"id\":3625,\"name\":\"Smriti Sharma\
+  \ Esq.\",\"email\":\"smriti_sharma_esq@wehner-homenick.com\",\"gender\":\"female\"\
+  ,\"status\":\"inactive\"},{\"id\":3624,\"name\":\"Vedanga Ganaka PhD\",\"email\"\
+  :\"phd_ganaka_vedanga@medhurst.name\",\"gender\":\"male\",\"status\":\"active\"\
+  },{\"id\":3623,\"name\":\"Durga Somayaji\",\"email\":\"durga_somayaji@rippin.io\"\
+  ,\"gender\":\"female\",\"status\":\"active\"},{\"id\":3622,\"name\":\"Chandraprabha\
+  \ Varrier\",\"email\":\"varrier_chandraprabha@veum-bosco.org\",\"gender\":\"female\"\
+  ,\"status\":\"inactive\"},{\"id\":3621,\"name\":\"Kumuda Dutta\",\"email\":\"kumuda_dutta@cassin.org\"\
+  ,\"gender\":\"female\",\"status\":\"inactive\"},{\"id\":3620,\"name\":\"Vaishvi\
+  \ Patil\",\"email\":\"patil_vaishvi@lubowitz.biz\",\"gender\":\"male\",\"status\"\
+  :\"inactive\"},{\"id\":3619,\"name\":\"Jay Gupta Jr.\",\"email\":\"jay_jr_gupta@upton.info\"\
+  ,\"gender\":\"male\",\"status\":\"inactive\"},{\"id\":3618,\"name\":\"Vaijayanti\
+  \ Kapoor\",\"email\":\"kapoor_vaijayanti@corkery-dietrich.name\",\"gender\":\"female\"\
+  ,\"status\":\"active\"},{\"id\":3617,\"name\":\"Rep. Devani Deshpande\",\"email\"\
+  :\"rep_deshpande_devani@parker.name\",\"gender\":\"female\",\"status\":\"inactive\"\
+  },{\"id\":3616,\"name\":\"Girija Saini\",\"email\":\"girija_saini@schulist-ziemann.net\"\
+  ,\"gender\":\"male\",\"status\":\"inactive\"},{\"id\":3615,\"name\":\"Narinder Kocchar\"\
+  ,\"email\":\"kocchar_narinder@gibson.com\",\"gender\":\"female\",\"status\":\"inactive\"\
+  },{\"id\":3614,\"name\":\"Sen. Dhanpati Nair\",\"email\":\"nair_dhanpati_sen@gerlach-powlowski.biz\"\
+  ,\"gender\":\"female\",\"status\":\"inactive\"},{\"id\":3613,\"name\":\"Aamod Naik\
+  \ IV\",\"email\":\"aamod_naik_iv@bednar-wilkinson.biz\",\"gender\":\"female\",\"\
+  status\":\"inactive\"},{\"id\":3611,\"name\":\"Shobhana Tandon\",\"email\":\"tandon_shobhana@stamm.info\"\
+  ,\"gender\":\"female\",\"status\":\"inactive\"},{\"id\":3610,\"name\":\"Mangalya\
+  \ Pilla\",\"email\":\"mangalya_pilla@kulas-lesch.name\",\"gender\":\"male\",\"status\"\
+  :\"active\"},{\"id\":3609,\"name\":\"Dayaamay Saini\",\"email\":\"saini_dayaamay@rau.info\"\
+  ,\"gender\":\"male\",\"status\":\"inactive\"},{\"id\":3608,\"name\":\"Msgr. Jagadish\
+  \ Deshpande\",\"email\":\"deshpande_jagadish_msgr@strosin.net\",\"gender\":\"female\"\
+  ,\"status\":\"active\"},{\"id\":3607,\"name\":\"Kashyap Devar\",\"email\":\"devar_kashyap@kub.net\"\
+  ,\"gender\":\"male\",\"status\":\"active\"},{\"id\":3606,\"name\":\"Rev. Anilabh\
+  \ Guneta\",\"email\":\"anilabh_rev_guneta@mertz.info\",\"gender\":\"female\",\"\
+  status\":\"inactive\"}]"

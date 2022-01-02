@@ -1,0 +1,11 @@
+app:
+  restApiUrl: https://gorest.co.in/public/v2/users
+
+logging:
+  level:
+    org.springframework: INFO
+    org.springframework.boot.autoconfigure: INFO
+
+test:
+  mockServer:
+    dir: mockServerReplays
