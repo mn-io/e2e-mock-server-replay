@@ -9,7 +9,7 @@ This is build upon a Spring boot command line app, but those dependencies are no
 
 This project has two parts:
 
-1.) Run your app and record requests and response pairs, see [src/main/java/net/mnio/apiclient/RequestResponseLogger.java]()
+1.) Run your app and record requests and response pairs, see [src/main/java/net/mnio/apiclient/RequestResponseLogger.java](src/main/java/net/mnio/apiclient/RequestResponseLogger.java)
 
 2.) Use those records within your test to start up a mock server to expect those requests.
 
@@ -22,11 +22,11 @@ This project relies on "Mock Server" (https://www.mock-server.com).
 - Each request response pair (record) is stored in a single file, named like "request-response-\<start timestamp>-\<diff timestamp>.log"\
   whereas first timestamp is fixed to the current run,\
   second one is the current diff which leads to a strictly increasing counting here
-- Records are read __in order and expected to be called exactly once__, see [src/test/java/net/mnio/MockServerBuilder.java]()
+- Records are read __in order and expected to be called exactly once__, see [src/test/java/net/mnio/MockServerBuilder.java](src/test/java/net/mnio/MockServerBuilder.java)
 - Within records, the URI host is ignored as it is always needed to be the URI of our mock server at http://localhost:1080.
 - While running the tests, the API URI to be called need to point to http://localhost:1080 for this reason.
 
-See [src/main/resources/application.yml]() and [src/test/resources/application-test.yml]() for more details.
+See [src/main/resources/application.yml](src/main/resources/application.yml) and [src/test/resources/application-test.yml](src/test/resources/application-test.yml) for more details.
 
 ### How to debug
 
